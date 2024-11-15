@@ -10,4 +10,9 @@ public class RestHomeController {
 	public String showMasg() {
 		return "Show wish message";
 	}
+	
+	@GetMapping("/welcome")
+	public String welcome() {
+		return "Show welcome message";
+	}
 }
